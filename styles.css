@@ -1,0 +1,111 @@
+/* style.css */
+
+* {
+    outline: 2px solid red;
+}
+
+.recipe-name {
+    color: red;
+    background-color: black;
+
+}
+
+.header {
+    color: blue;
+    background-color: #ff00ff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subone {
+    color:green;
+    padding: 16px 8px;
+    margin: 8px auto;
+}
+
+.subtwo {
+    font-family: "Times New Roman", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header.subthree {
+    color: yellow;
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.organized .list {
+    color: pink;
+    background-color: orange;
+}
+
+#one {
+    color: red;
+}
+
+.organized #two  {
+    color: purple; 
+    background: pink;
+}
+
+ol #two {
+    color: green;
+    background: black;
+}
+
+#three {
+    color: red;
+}
+
+.test {
+    background: rgb(0,0,0);
+}
+
+.button-link {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.button-link:hover {
+    background: #0056b3;
+}
+
+.button-link-two {
+    display: inline-block;
+    background: #ff00ff;
+    color: green;
+    padding: 16px 8px;
+    text-align: center;
+    text-decoration: double;
+    border: none;
+    border-radius: 4px;
+    cursor:crosshair;
+    margin-bottom: 10px;
+}
+
+.button-link-two:hover {
+    background: #0056b3;
+}
+
+.button-link-three {
+    display:inline-block;
+    background: rgb(23,45,210);
+    color: red;
+    padding:16px 8px;
+    text-align: right;
+    text-decoration: none;
+    border: black;
+    border-radius: 10px;
+    cursor:grab;
+    margin-top: 20px;
+}
+
+.button-link-three:hover {
+    background: rgb(0,0,0);
+}
